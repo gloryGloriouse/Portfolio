@@ -5,19 +5,29 @@
             <!--Button du menu-->
             <div class="md:hidden z-30" @click="isMenuOpen = !isMenuOpen ">
                 <button class="block focus:outline-none">
-                    <span v-if="isMenuOpen" class="text-5xl md:text-[#A3CCDA] text-white">
+                    <span v-if="isMenuOpen" class="text-5xl text-white">
                         <Icon icon="material-symbols:close"/>
                     </span>
-                    <span v-else class="text-5xl md:text-[#A3CCDA] text-white">
+                    <span v-else class="text-5xl text-white">
                         <Icon icon="material-symbols:menu"/>
                     </span>
                 </button>
             </div>
-            <!--lien du nav-->
+            <!--lien du nav sur desktop-->
+            <nav class="['hidden items-center md:flex md:flex-row md:bg-transparent md:opacity-100']">
+                <ul class="flex md:space-x-5 ">
+                    <li v-for="item in Menu" :key="item.name">
+                        <a :href="item.href" class="block transition-colors ease-linear  
+                        font-semibold text-white  hover:text-[#06b6d4] text-lg" 
+                        @click="scrollToSection(item.href)">{{ item.name }}</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--lien du nav sur mobile-->
             <nav :class="[
-                    'fixed inset-0 flex flex-col items-center justify-center bg-[#A3CCDA] transition-all duration-500 ease-in-out',
+                    'fixed inset-0 flex flex-col items-center justify-center bg-[#0F172A] transition-all duration-500 ease-in-out',
                     isMenuOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 -translate-y-10 pointer-events-none',
-                    'md:relative md:flex md:flex-row md:justify-between md:bg-transparent md:opacity-100 md:translate-y-0 md:pointer-events-auto'
+                    'md:hidden'
                 ]">
                 <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
                     <li v-for="item in Menu" :key="item.name">
@@ -36,10 +46,10 @@ import { ref } from 'vue'
 const isMenuOpen = ref(false)
 const Menu = ref([
     {name:'Accueil',href:'#accueil'},
-    {name:'Services',href:'#services'},
+    {name:'Presentation',href:'#services'},
+    {name:'Portfolio',href:'#portfolio'},
     {name:'Compétence',href:'#compétence'},
-    {name:'Projets',href:'#projets'},
-    {name:'Me Contacte',href:'#contact'},
+    {name:'Contact',href:'#contact'},
 ])
 
 const scrollToSection = (href) => {

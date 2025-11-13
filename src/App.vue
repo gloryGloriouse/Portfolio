@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#D4EBF8] dark:bg-[#080326] min-h-screen">
+  <div class="bg-[#0F172A] min-h-screen">
     <Navbar/>
   </div>
 </template>
