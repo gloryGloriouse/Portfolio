@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    --rose : rgb(248, 26,92);
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: italic;
+}
+.navbar-brand: hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px ;
+     margin-left: 10px;
+     color: black;
+     text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 85%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26,92);
+}
+.btn0{
+    background-color: var(--rose) !important;
+    border-radius: 60px;
+    border: none;
+    height: 40px;
+    width: 40%;
+    outline: none;
+    color: white;
+    font-weight: 500;
+}
+.main{
+    width: 100%;
+    background: url(images/fruit2.jpeg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: var(--rose) !important;
+    color: white;
+    font-weight: 600;
+    border-radius: 60px;
+}.new{
+    margin-top: 100px;
+}

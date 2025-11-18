@@ -1,56 +1,52 @@
 <template>
-    <div
-    data-aos="fade-up" id="accueil"
-    class="flex  min-h-[calc(100vh-6rem)]  justify-center lg:justify-start items-center text-white lg:mt-0">
-        <main class="flex flex-col lg:grid lg:!grid-cols-2 w-full  mx-auto items-center lg:px-8 ">
-            <div class="text-center lg:!text-left px-2 lg:px-0 order-2 lg:order-1">
-
-                <h1 class="mb-6 text-2xl lg:text-4xl font-bold">
-                    Salut, je suis <span class="text-stroke text-stroke-cyan text-3xl lg:text-5xl">Audrey Glory</span>
-                </h1>
-                <h1 class="mb-4 text-xl lg:text-2xl font-bold">
-                    Je suis  <span class="text-[#06b6d4]">Développeuse Web</span>
-                </h1>
-                <p class="text-lg mx-auto max-w-xl lg:mx-0 ">
-                    Je crée des sites web modernes et performants, en développement Front-end et Back-end.
-                    Chaque projet est l'occasion d'allier efficacité et élégance, avec une attention particulière portée à la performance, la sécurité et l'expérience utilisateur. Passionné par l'apprentissage continu, 
-                    je transforme les idées en solutions concrètes et fonctionnelles.
-                </p>
-                <div class="mt-6 flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start items-center gap-y-4 sm:gap-y-0 gap-x-6 lg:gap-x-24">
-                    <button class="bg-[#06b6d4] font-semibold text-white px-6 py-2 rounded-full mt-6 hover:!bg-transparent hover:!text-[#06b6d4] border-2 border-[#06b6d4] 
-                        transition-all duration-300 flex items-center gap-2">
-                        Télécharger CV
-                        <Icon icon="line-md:download-loop" class="text-xl" />
-                    </button>
-                    <div class="flex gap-4 mt-6">
-                        <!-- WhatsApp -->
-                        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
-                            hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-                            <Icon icon="mdi:whatsapp" class="text-2xl" />
-                        </a>
-                        <!-- Facebook -->
-                        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
-                            hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-                            <Icon icon="mdi:facebook" class="text-2xl" />
-                        </a>
-                        <!-- LinkedIn -->
-                        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
-                            hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-                            <Icon icon="mdi:linkedin" class="text-2xl" />
-                        </a>
-
-                        <!-- YouTube -->
-                        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
-                            hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-                            <Icon icon="mdi:youtube" class="text-2xl" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-
+  <div
+  data-aos="fade-up" id="accueil"
+  class="flex  min-h-[calc(100vh-6rem)]  justify-center lg:justify-start items-center text-white lg:mt-0 px-6">
+    <main class="flex flex-col lg:grid lg:!grid-cols-2 w-full  mx-auto items-center lg:px-6">
+      <div class="text-center lg:!text-left px-2 lg:px-0 order-2 lg:order-1">
+        <h1 class="mb-6 text-2xl lg:text-3xl font-bold">
+          Salut, je suis <span class="text-stroke text-stroke-cyan text-3xl lg:text-5xl">Audrey Glory</span>
+        </h1>
+        <h1 class="mb-4 text-xl lg:text-2xl font-bold">
+          Je suis  <span class="text-[#06b6d4]">Développeuse Web</span>
+        </h1>
+        <p class="text-lg mx-auto max-w-xl lg:mx-0 ">
+          Je crée des sites web modernes et performants, en développement Front-end et Back-end.
+          Chaque projet est l'occasion d'allier efficacité et élégance, avec une attention particulière portée à la performance, la sécurité et l'expérience utilisateur. Passionné par l'apprentissage continu, 
+          je transforme les idées en solutions concrètes et fonctionnelles.
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start items-center gap-y-4 sm:gap-y-0 gap-x-6 lg:gap-x-24">
+          <a :href="cv" download class="bg-[#06b6d4] font-semibold text-white px-6 py-2 rounded-full mt-6 hover:!bg-transparent hover:!text-[#06b6d4] border-2 border-[#06b6d4] 
+            transition-all duration-300 flex items-center gap-2">
+            Télécharger CV
+            <Icon icon="line-md:download-loop" class="text-xl" />
+          </a>
+          <div class="flex gap-4 mt-6">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/237689797662?text=Bonjour%20Audrey%2C%20je%20souhaite%20discuter%20d%27un%20projet." class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
+              hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
+            <Icon icon="mdi:whatsapp" class="text-2xl" />
+            </a>
+              <!-- Facebook -->
+            <a href="https://github.com/gloryGloriouse" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
+              hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
+              <Icon icon="mdi:github" class="text-2xl" />
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/audrey-glory/" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
+              hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
+              <Icon icon="mdi:linkedin" class="text-2xl" />
+            </a>
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/@audreyglory" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] 
+              hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
+              <Icon icon="mdi:youtube" class="text-2xl" />
+            </a>
+          </div>
+        </div>
+      </div>
       <!-- Image avec effet wavy -->
       <div class="flex justify-center items-center order-1 lg:order-2">
-
         <div class="container">
           <figure class="card">
             <div class="image-wrapper">
@@ -80,6 +76,7 @@
 </template>
 
 <script setup>
+import cv from '@/assets/cv1.jpg'
 </script>
 
 <style>
@@ -90,6 +87,8 @@
 }
 
 .container {
+max-width: 100%;
+overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,8 +97,8 @@
 
 .container .card {
   position: relative;
-  width: clamp(260px, 70vw, 420px);
-  height: clamp(260px, 70vw, 420px);
+  width: clamp(240px, 60vw, 380px);
+  height: clamp(240px, 60vw, 380px);
   display: flex;
   justify-content: center;
   align-items: center;
