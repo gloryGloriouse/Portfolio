@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class=" h-24">
         <div class="flex justify-between items-center p-6 lg:px-12 relative z-20">
             <div class="text-3xl font-bold dark:text-white">PortFolio</div>    
             <!--Button du menu-->
@@ -14,8 +14,8 @@
                 </button>
             </div>
             <!--lien du nav sur desktop-->
-            <nav class="['hidden items-center md:flex md:flex-row md:bg-transparent md:opacity-100']">
-                <ul class="flex md:space-x-5 ">
+            <nav class="hidden items-center  md:flex md:flex-row md:bg-transparent md:opacity-100">
+                <ul class="flex gap-8 ">
                     <li v-for="item in Menu" :key="item.name">
                         <a :href="item.href" class="block transition-colors ease-linear  
                         font-semibold text-white  hover:text-[#06b6d4] text-lg" 
@@ -32,7 +32,7 @@
                 <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
                     <li v-for="item in Menu" :key="item.name">
                         <a :href="item.href" class="block transtion ease-linear md:text-lg lg:text-2xl
-                        font-semibold text-white  hover:text-blue-300 text-2xl" 
+                        font-semibold text-white  hover:text-[#06b6d4] text-2xl" 
                         @click="scrollToSection(item.href)">{{ item.name }}</a>
                     </li>
                 </ul>
