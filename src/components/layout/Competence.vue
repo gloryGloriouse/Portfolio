@@ -24,7 +24,7 @@ const skills = [
   { name: 'JavaScript', level: 50 },
   { name: 'PHP', level: 70 },
   { name: 'TailwindCSS', level: 65 },
-  { name: 'Vue.js', level: 55 },
-  { name: 'Laravel', level: 55 }
+  { name: 'Vue.js', level: 40 },
+  { name: 'Laravel', level: 40 }
 ]
 </script>
