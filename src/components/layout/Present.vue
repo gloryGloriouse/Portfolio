@@ -15,7 +15,7 @@
             J’aime transformer des idées en interfaces élégantes et des solutions robustes, avec une attention
             particulière portée à la performance, la sécurité et l’UX.
           </p>
-          <ul class="mt-2 space-y-1" data-aos="fade-up" data-aos-delay="100">
+          <ul class="mt-2 space-y-1" >
             <li class="flex items-start gap-2 text-slate-300">
               <Icon icon="mdi:translate" class="text-cyan-400 text-xl mt-0.5" />
               <span><span class="text-slate-200 font-medium">Langues</span>: Français, Anglais</span>
@@ -44,7 +44,7 @@
               </div>
             </div>
 
-            <div class="rounded-xl border border-[#06b6d4] bg-white/5 p-5 transition-transform duration-300 hover:-translate-y-1 hover:bg-white/10" data-aos="fade-up" >
+            <div class="rounded-xl border border-[#06b6d4] bg-white/5 p-5 transition-transform duration-300 hover:-translate-y-1 hover:bg-white/10" >
               <div class="flex items-start gap-3">
                 <Icon icon="mdi:api" class="text-cyan-400 text-2xl" />
                 <div>
@@ -54,7 +54,7 @@
               </div>
             </div>
 
-            <div class="rounded-xl border border-[#06b6d4] bg-white/5 p-5 transition-transform duration-300 hover:-translate-y-1 hover:bg-white/10" data-aos="fade-up" >
+            <div class="rounded-xl border border-[#06b6d4] bg-white/5 p-5 transition-transform duration-300 hover:-translate-y-1 hover:bg-white/10"  >
               <div class="flex items-start gap-3">
                 <Icon icon="mdi:brush" class="text-cyan-400 text-2xl" />
                 <div>

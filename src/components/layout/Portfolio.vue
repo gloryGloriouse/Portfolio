@@ -17,6 +17,7 @@
                     <!-- Description limitée automatiquement -->
                     <p class="text-sm text-slate-300/80 line-clamp-3">
                     {{ projet.Description }}
+                    <br><span class="text-slate-200 font-medium">Langage utilisés:</span> {{ projet.tags }}
                     </p>
                 </div>
                 <!-- Button -->
@@ -36,14 +37,15 @@
  import Rocket from '@/assets/rocket.png'
  import digital from '@/assets/d3.jpg'
  import Flex from '@/assets/flex.jpg'
- import Console from '@/assets/console.jpg'
+ import Console from '@/assets/Menus.jpg'
+ import proto from '@/assets/accueil.jpg'
 
  const projet = [
   { image:logoResto, title: 'Restaurant', Description: 'siteweb responsive de restaurant.', tags: 'HTML, CSS, JavaScript', LiveLink: '/projet/Resto/html.html'},
-  { image:digital, title: 'Agence digital', Description:'siteweb responsive d\'une agence digital .', tags: 'HTML, CSS, JavaScript', LiveLink: '/projet/digital/index.html'},
-  { image:Rocket, title: 'Astro world', Description: 'siteweb responsive d\'astronaut', tags: 'HTML, Tailwindcss', LiveLink: 'https://glo-rockets.onrender.com'},
-  { image:Flex, title: 'Social Help', Description:'Plateforme de placement de menageres et AVS.', tags: 'HTML, CSS, JavaScript', LiveLink: 'https://github.com/audreyvilleneuve/restaurant'},
-  //{ image:Console, title: 'PHP', Description:'siteweb responsive de restaurant.', tags: 'HTML, CSS, JavaScript', LiveLink: 'https://github.com/audreyvilleneuve/restaurant'},
-  //{ image:logoResto, title: 'Leave Mangement', Description:'Site de gestion de personnelle d\'une Entreprise.', tags: 'HTML, CSS, JavaScript', LiveLink: 'https://github.com/audreyvilleneuve/restaurant'}, 
+  { image:digital, title: 'Agence digital', Description:'siteweb responsive d\'une agence digital .', tags: 'bootstrap', LiveLink: '/projet/digital/index.html'},
+  { image:Rocket, title: 'Astro world', Description: 'siteweb responsive d\'astronaut', tags: ' Tailwindcss', LiveLink: 'https://glo-rockets.onrender.com'},
+  { image:Flex, title: 'Social Help', Description:'Plateforme de placement de menageres et AVS.', tags: 'HTML, CSS, php', LiveLink: '#'},
+  { image:Console, title: 'Gestion Personnel', Description:'Application web de gestion de personnel d\'une entreprise.', tags: 'vuejs, Laravel', LiveLink: '#'},
+  { image:proto, title: 'Prototype', Description:' Prototype d\'un portfolio de developpeur.', tags: '----', LiveLink: '##'}, 
 ]
 </script>

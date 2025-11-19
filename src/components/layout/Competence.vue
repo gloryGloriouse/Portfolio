@@ -6,7 +6,7 @@
               class="rounded-xl border border-[#06b6d4]/60 bg-white/5 p-4 overflow-hidden ">
                 <div class="flex items-center justify-between mb-2 text-sm">
                     <span class="font-semibold text-slate-200">{{ skill.name }}</span>
-                    <span class="text-slate-300">{{ skill.level }}%</span>
+                    <!---<span class="text-slate-300">{{ skill.level }}%</span>-->
                 </div>
                 <div class="w-full h-3 rounded-xl bg-white/15 overflow-hidden">
                     <div class="h-full bg-[#06b6d4] rounded-xl transition-all duration-700 ease-out"

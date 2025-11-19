@@ -6,22 +6,12 @@
       </div>
 
       <nav class="flex items-center gap-4 text-sm">
-        <a href="#accueil" @click.prevent="scrollTo('#accueil')" class="hover:text-cyan-400 transition-colors">Accueil</a>
         <a href="#presentation" @click.prevent="scrollTo('#presentation')" class="hover:text-cyan-400 transition-colors">Présentation</a>
-        <a href="#portfolio" @click.prevent="scrollTo('#portfolio')" class="hover:text-cyan-400 transition-colors">Projects</a>
+        <a href="#portfolio" @click.prevent="scrollTo('#portfolio')" class="hover:text-cyan-400 transition-colors">Projets</a>
         <a href="#competence" @click.prevent="scrollTo('#competence')" class="hover:text-cyan-400 transition-colors">Compétences</a>
       </nav>
 
       <div class="flex items-center gap-3">
-        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-          <Icon icon="mdi:whatsapp" class="text-xl" />
-        </a>
-        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-          <Icon icon="mdi:linkedin" class="text-xl" />
-        </a>
-        <a href="#" class="p-2 rounded-full bg-[#06b6d4] text-white border-1 border-[#06b6d4] hover:!bg-transparent hover:!text-[#06b6d4] transition-all duration-300">
-          <Icon icon="mdi:github" class="text-xl" />
-        </a>
         <a href="#nav" aria-label="Haut de page" @click.prevent="scrollToNav" class="p-2 rounded-full border border-white/20 text-white hover:border-[#06b6d4] text-slate-200 hover:text-[#06b6d4] transition-colors">
           <Icon icon="mdi:arrow-up" class="text-xl" />
         </a>
