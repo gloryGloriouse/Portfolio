@@ -76,7 +76,7 @@
 </template>
 
 <script setup>
-import cv from '@/assets/cv.pdf'
+import cv from '@/assets/CV.pdf'
 </script>
 
 <style>
