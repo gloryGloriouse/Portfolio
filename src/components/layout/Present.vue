@@ -4,7 +4,7 @@
     <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 flex flex-col items-start gap-2">
         <div class="space-y-4">
             <div class="group flex flex-col py-8 items-center" data-aos="fade-up">
-                <h2 class="text-2xl lg:text-3xl font-semibold text-center text-[#06b6d4] head transition-all duration-300" data-aos="fade-up" >Audrey Glory .T.</h2>
+                <h2 class="text-2xl lg:text-3xl font-semibold text-center text-[#06b6d4] head transition-all duration-300" data-aos="fade-up" >Audrey Glory Tchetchoua</h2>
                 <div class="w-24 h-1  mx-auto mt-2  rounded-full bg-cyan-500/70"></div>
             </div>
           <p data-aos="fade-up">

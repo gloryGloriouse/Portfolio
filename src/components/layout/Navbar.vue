@@ -1,7 +1,7 @@
 <template>
     <header id="nav" class=" h-24">
         <div class="flex justify-between items-center p-6 lg:px-12 relative z-20">
-            <div class="text-3xl font-bold dark:text-white">PortFolio</div>    
+            <div class="text-3xl font-bold dark:text-white">A.G.T</div>    
             <!--Button du menu-->
             <div class="md:hidden z-30" @click="isMenuOpen = !isMenuOpen ">
                 <button class="block focus:outline-none">
