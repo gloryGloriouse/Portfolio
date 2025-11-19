@@ -16,7 +16,7 @@
           je transforme les idées en solutions concrètes et fonctionnelles.
         </p>
         <div class="mt-6 flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start items-center gap-y-4 sm:gap-y-0 gap-x-6 lg:gap-x-24">
-          <a href="##" download class="bg-[#06b6d4] font-semibold text-white px-6 py-2 rounded-full mt-6 hover:!bg-transparent hover:!text-[#06b6d4] border-2 border-[#06b6d4] 
+          <a :href="cv" download class="bg-[#06b6d4] font-semibold text-white px-6 py-2 rounded-full mt-6 hover:!bg-transparent hover:!text-[#06b6d4] border-2 border-[#06b6d4] 
             transition-all duration-300 flex items-center gap-2">
             Télécharger CV
             <Icon icon="line-md:download-loop" class="text-xl" />
@@ -76,7 +76,7 @@
 </template>
 
 <script setup>
-//import cv from '@/assets/cv1.jpg'
+import cv from '@/assets/cv.pdf'
 </script>
 
 <style>
