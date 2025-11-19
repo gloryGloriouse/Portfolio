@@ -46,6 +46,6 @@
   { image:Rocket, title: 'Astro world', Description: 'siteweb responsive d\'astronaut', tags: ' Tailwindcss', LiveLink: 'https://glo-rockets.onrender.com'},
   { image:Flex, title: 'Social Help', Description:'Plateforme de placement de menageres et AVS.', tags: 'HTML, CSS, php', LiveLink: '#'},
   { image:Console, title: 'Gestion Personnel', Description:'Application web de gestion de personnel d\'une entreprise.', tags: 'vuejs, Laravel', LiveLink: '#'},
-  { image:proto, title: 'Prototype', Description:' Prototype d\'un portfolio de developpeur.', tags: '----', LiveLink: '##'}, 
+  { image:proto, title: 'Prototype', Description:' Prototype d\'un portfolio de developpeur.', tags: '----', LiveLink: 'https://www.figma.com/proto/gKYM7VLhwOsBxrIVhBH6kK/tuto-figma?node-id=131-51&t=ZtfIPe864ShdkmCe-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=131%3A51&show-proto-sidebar=1'}, 
 ]
 </script>
